@@ -1,5 +1,6 @@
 import axiosInstance from "./axiosInstance";
 
+// Fonctions pour intéragir avec l'API, pour la connexion, la récupération de profil et la mise à jour de profil
 export const loginUser = async (email, password) => {
   try {
     const response = await axiosInstance.post("/user/login", {
@@ -13,6 +14,7 @@ export const loginUser = async (email, password) => {
     throw error;
   }
 };
+
 
 export const getUserProfile = async () => {
   try {
@@ -28,6 +30,7 @@ export const getUserProfile = async () => {
   }
 };
 
+// On rajoute le token dans le header d'autorisation ici aussi, pour éviter les erreurs
 export const updateUserProfile = async (jwtToken, updatedProfile) => {
   try {
     const response = await axiosInstance.put("/user/profile", updatedProfile, {

@@ -13,15 +13,15 @@ const AppInitializer = ({ children }) => {
         .then(() => setIsAuthInitialized(true))
         .catch((error) => {
           console.error('Error during profile fetch:', error);
-          setIsAuthInitialized(true); // Continue initialization even if there's an error
+          setIsAuthInitialized(true);
         });
     } else {
-      setIsAuthInitialized(true); // No token, consider auth as initialized
+      setIsAuthInitialized(true);
     }
   }, [dispatch]);
 
   if (!isAuthInitialized) {
-    return <div>Loading...</div>; // Or any other loading state
+    return <div>Loading...</div>;
   }
 
   return children;

@@ -1,10 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Home from "./pages/Home/Home";
 import SignIn from "./pages/SignIn/SignIn";
 import UserProfile from "./pages/UserProfile/UserProfile";
 import Error from "./pages/Error/Error";
-import AppInitializer from './AppInitializer';
+
 import Footer from "./components/Footer/Footer";
+
+import AppInitializer from './AppInitializer';
+
 
 function App() {
   return (

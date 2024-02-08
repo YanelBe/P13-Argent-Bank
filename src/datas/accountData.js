@@ -1,3 +1,4 @@
+// Tableau des données des comptes bancaires
 const accountData = [
     {
       title: "Argent Bank Checking",

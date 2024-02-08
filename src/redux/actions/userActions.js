@@ -6,7 +6,6 @@ import {
 } from "../api/services";
 
 
-//Thunk Async pour la connexion utilisateur
 export const loginUser = createAsyncThunk(
   "user/loginUser",
   async ({ email, password }) => {
@@ -14,7 +13,6 @@ export const loginUser = createAsyncThunk(
     return token;
   }
 );
-
 
 export const getUserProfile = createAsyncThunk(
   "user/getUserProfile",
@@ -27,7 +25,6 @@ export const getUserProfile = createAsyncThunk(
     }
   }
 );
-
 
 export const updateUserProfile = createAsyncThunk(
   "user/updateUserProfile",

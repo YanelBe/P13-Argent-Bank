@@ -10,6 +10,7 @@ import { getUserProfile, updateUserProfile } from "../../redux/actions/userActio
 
 import accountData from "../../datas/accountData";
 
+// Composant pour la page de profil utilisateur
 const UserProfile = () => {
   const profile = useSelector((state) => state.user.profile);
   const error = useSelector((state) => state.user.error);

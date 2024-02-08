@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// Composant pour gérer le changement de nom de l'utilisateur
 const UserNameEdit = ({ fullName, onSave }) => {
 
   // On définit l'état qui servira à dire si un edit est en cours ou non
