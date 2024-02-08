@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## Argent Bank, application React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projet pour l'application Argent Bank, une application sous React permettant d'accéder à des informations d'un compte bancaire. Le projet est développé en deux parties :
 
-## Available Scripts
+- 1) Création de l'application à partir d'une API fournie, permettant de se connecter à un compte, d'accéder à ses informations, et à modifier son nom de profil. Le projet est développé à l'aide de Axios, Redux et Redux Toolkit pour gérer le state de l'application. 
+- 2) Progression de l'API, en fournissant de nouveaux endpoints pour la suite du développement de l'application, qui permettra de gérer les détails d'une transaction.
 
-In the project directory, you can run:
 
-### `npm start`
+## Installation du back-end
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Cloner le repo suivant du back-end :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Back-End Repository](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API)
 
-### `npm test`
+Suivre les instructions du repository, en installant :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Node.js v12](https://nodejs.org/en/)
+- [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
-### `npm run build`
+Installer les dépendences avec la commande `npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Démarrez le serveur back-end (sur le port 3001) avec la commande `npm run dev:server`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Puis remplir la base de données avec la commande `npm run populate-db`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation du front-end
 
-### `npm run eject`
+Clonez ce repo 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Installer les dépendences avec la commande `npm install`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Démarrez le serveur avec la commande `npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Le serveur démarre automatiquement sur le port 3000.
