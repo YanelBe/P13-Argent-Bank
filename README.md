@@ -12,23 +12,23 @@ Projet pour l'application Argent Bank, une application sous React permettant d'a
 
 [Back-End Repository](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API)
 
-1. Suivre les instructions du repository, en installant :
+2. Suivre les instructions du repository, en installant :
 
 - [Node.js v12](https://nodejs.org/en/)
 - [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
-1. Installer les dépendences avec la commande `npm install`
+3. Installer les dépendences avec la commande `npm install`
 
-1. Démarrez le serveur back-end (sur le port 3001) avec la commande `npm run dev:server`
+4. Démarrez le serveur back-end (sur le port 3001) avec la commande `npm run dev:server`
 
-1. Puis remplir la base de données avec la commande `npm run populate-db`
+5. Puis remplir la base de données avec la commande `npm run populate-db`
 
 ## Installation du front-end
 
 1. Clonez ce repo 
 
-1. Installer les dépendences avec la commande `npm install`
+2. Installer les dépendences avec la commande `npm install`
 
-1. Démarrez le serveur avec la commande `npm start`
+3. Démarrez le serveur avec la commande `npm start`
 
-1. Le serveur démarre automatiquement sur le port 3000.
+4. Le serveur démarre automatiquement sur le port 3000.
